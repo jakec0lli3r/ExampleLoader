@@ -44,7 +44,7 @@ namespace Loader.UI
             // Set the path to the correct html file.
             mainBrowser = new ChromiumWebBrowser(String.Format("file:///{0}/content/index.html", Environment.CurrentDirectory)); 
 
-            // Dock the Chromium browser to the form.
+            // Dock the Chromium browser to the form, and fill it.
             this.Controls.Add(mainBrowser);
             mainBrowser.Dock = DockStyle.Fill;
 
