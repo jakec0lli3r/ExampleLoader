@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="js/jquery.js"></script>
+        <script src="js/main.js" defer></script>
+        <script type="text/javascript" src="js/materialize.js"></script>
+        <script src="js/particles/particles.js"></script>
+        <script src="js/animations/animationObject.js" defer></script>
+        <script src="js/particles/initialize.js" defer></script>
+        <script src="js/login.js" defer></script>
+        <script src="js/selector.js" defer></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/materialize.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/content.css">
+    </head>
+    <body> 
+        <div id="background">    
+            <div id="contentContainer">
+                <div class="preloader-wrapper big active" id="loader">
+                    <div class="spinner-layer spinner-yellow-only">
+                        <div class="circle-clipper left">
+                        <div class="circle"></div>
+                        </div><div class="gap-patch">
+                        <div class="circle"></div>
+                        </div><div class="circle-clipper right">
+                        <div class="circle"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="window_buttons">
+                    <div class="minimize"></div>
+                    <div class="close"></div>
+                </div>
+                <div id="contentArea">                 
+                    <div id="logoContainer">
+                        <img src="img/example_logo.png" id="logo">
+                    </div>
+                    <label>Username</label>
+                    <input type="text" id="username" class="inputBox">
+                    <label>Password</label>
+                    <input type="password" id="password" class="inputBox">
+                    <label class="checkboxLabel">
+                        <input type="checkbox" class="filled-in"/>
+                        <span>Remember me</span>
+                    </label>
+                    <div class="loginButton">
+                        <a class="waves-effect waves-light btn-large">Login</a>
+                    </div>
+                    <div id="selectionContainer">
+                        <label id="selectionLabel">Please select a product</label>
+                        <div class="input-field col s12" id="selectionBox">
+                            <select>
+                                <option value="" disabled selected>Choose your product</option>
+                                <option value="option1">Example option 1</option>
+                                <option value="option2">Exmaple option 2</option>
+                                <option value="option3">Example option 3</option>
+                            </select>
+                        </div>  
+                        <div id="informationArea">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                            </p>
+                        </div>
+                        <div class="switch" id="saveSelectionSwitch">
+                            <label>
+                                <input type="checkbox">
+                                <span class="lever"></span>
+                                <label>Remember selection</label>
+                            </label>
+                        </div>
+                        <div class="launchButton">
+                            <a class="waves-effect waves-light btn-large">Launch</a>
+                        </div>    
+                    </div>                   
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

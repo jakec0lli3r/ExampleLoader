@@ -1,0 +1,137 @@
+html, body
+{
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    color: #FAFAFA;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#background
+{
+    height: 100vh;
+    background-color: #222629;
+}
+
+canvas 
+{ 
+    position: fixed;
+    top: 0; 
+    left: 0; 
+}
+
+#contentContainer
+{
+    display: flex;           
+    flex-direction: column;  
+    justify-content: center; 
+    align-items: center;     
+    height: 100%;
+}
+
+#contentContainer #contentArea
+{
+	width: 100px;
+	height: 100px;
+	box-shadow: 0.9px 0.00px 10px #86C232;
+    background-color: #222629;
+    padding: 50px;
+}
+
+#contentContainer #contentArea #logoContainer
+{
+    display: flex;           
+    flex-direction: column;  
+    justify-content: center; 
+    align-items: center;    
+}
+
+#contentContainer #contentArea #logoContainer > img
+{
+    height: 150px;
+    padding-bottom: 35px;
+    opacity: 0;
+}
+
+#contentContainer #contentArea > .inputBox
+{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px 0px;
+    border: 1px solid #FAFAFA;
+    background-color: #222629;
+    font-size: 15px;
+    color: #6B6E70;
+    z-index: 1;
+}
+
+#contentContainer #contentArea > .checkboxLabel
+{
+    padding-top: 10px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#contentContainer #contentArea .loginButton
+{
+    padding-top: 15px;
+}
+
+#contentContainer #contentArea .loginButton > a
+{
+    background-color: #61892F;
+    width: 100%;
+}
+
+#selectionContainer
+{
+    position: relative;
+    top: -12px;
+}
+
+#selectionContainer #selectionBox
+{
+    z-index: 1;
+}
+
+#selectionContainer #informationArea
+{
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    height: 100px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#selectionContainer .launchButton
+{
+    padding-top: 35px;
+}
+
+#selectionContainer .launchButton > a
+{
+    background-color: #61892F;
+    width: 100%;
+}
+
+#selectionContainer #informationArea > p
+{
+    position: relative;
+    top: -12px;
+    padding: 10px;
+    font-size: 12.5px;
+    font-weight: 100;
+}
+
+#selectionContainer #saveSelectionSwitch > label
+{
+    font-weight: 300;
+}
+
+
+
+
