@@ -29,7 +29,7 @@ Short demo video: https://i.gyazo.com/2720e902a3efc680ac1b2296f0531921.mp4
 
 ## Web-end setup
 
-1. Create a MySQL database, and user. Assign the user to the database with at least SELECT and UPDATE permissions.
+1. Create an MySQL database, and user. Assign the user to the database with at least SELECT and UPDATE permissions.
 
  2. Create a table called `user` with the following columns: **id**, **username**, **password** and **hwid**. 
  
@@ -57,8 +57,8 @@ Short demo video: https://i.gyazo.com/2720e902a3efc680ac1b2296f0531921.mp4
  3. Open the **`Loader.sln`** file, to open the project in Visual Studio.
  4. Right click the project in the **Solution Explorer**, then click on *"Manage NuGet Packages"*.
  5. Search for, and install the following packages:
-	 	 - **`CefSharp.WinForms`**
-		 - **`Newtonsoft.Json`**
+	 - **CefSharp.WinForms**
+	 - **Newtonsoft.Json**
 		 
 5. Now go to `Core/Constants.cs` and change the **apiUrl** & **dllUrl** strings to yours.
 6. Make sure all files in the **Content** folder are set to *"Copy always"*.
