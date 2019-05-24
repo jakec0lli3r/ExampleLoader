@@ -47,9 +47,25 @@ Short demo video: https://i.gyazo.com/2720e902a3efc680ac1b2296f0531921.mp4
 	>ALTER TABLE `user`
   ADD PRIMARY KEY (`id`);
 
-3. Download the web-files, and change the credentials in **`core/login.connect.php`** to yours.
+2. Download the web-files, and change the credentials in **`core/login.connect.php`** to yours.
+3. Host the web-files. The url to **`handle.php`** will be your API url.
 
-4. Host the web-files. The url to **`handle.php`** will be your API url.
+## Loader setup
+
+ 1. Download the loader source-code, and extract it.
+
+ 3. Open the **`Loader.sln`** file, to open the project in Visual Studio.
+ 4. Right click the project in the **Solution Explorer**, then click on *"Manage NuGet Packages"*.
+ 5. Search for, and install the following packages:
+	 	 - **`CefSharp.WinForms`**
+		 - **`Newtonsoft.Json`**
+		 
+5. Now go to `Core/Constants.cs` and change the **apiUrl** & **dllUrl** strings to yours.
+6. Make sure all files in the **Content** folder are set to *"Copy always"*.
+7. Also make sure you are building in x64 or x86. Im fairly sure CefSharp does support AnyCPU, but it will require some additional configuration.
+	 
+
+
 ## Credits
  - [CefSharp](https://github.com/cefsharp/CefSharp) 
  - [Bleak](https://github.com/Akaion/Bleak) - A awesome injection library.
