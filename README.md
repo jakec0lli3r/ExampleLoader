@@ -17,9 +17,9 @@ This is mostly a demonstration of the awesome stuff you can do with CefSharp.
 
 ## Information
 
-This loader features a clean design made possible by CefSharp. CefSharp lets us use an embed Chromium Browser. Meaning we will be able to render HTML5, use javascript and most importantly run it smoothly. 
+This loader features a clean design made possible by CefSharp. CefSharp lets us use an embed Chromium Browser. Meaning we will be able to render HTML5, use JavaScript and most importantly run it smoothly. 
 
-Please note this is not a practical example of a loader, because of CefSharp this loader is far from standalone, in fact all of its dependencies will add up to a total size of over 100MB. Apart from that there also isn't any injection security implemented (as far as anti-leak), this is just an simple example of how to do a loader, but a pretty advanced example of what can be done with CefSharp. For example creating custom objects, and communicating with them through JavaScript.
+Please note this is not a practical example of a loader, because of CefSharp this loader is far from standalone, in fact all of its dependencies will add up to a total size of over 100MB. Apart from that there also isn't any injection security implemented (as far as anti-leak), this is just a simple example of how to do a loader, but a pretty advanced example of what can be done with CefSharp. For example creating custom objects, and communicating with them through JavaScript.
 
 ## Screenshots & videos
 
