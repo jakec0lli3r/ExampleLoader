@@ -64,7 +64,14 @@ Short demo video: https://i.gyazo.com/2720e902a3efc680ac1b2296f0531921.mp4
 6. Make sure all files in the **Content** folder are set to *"Copy always"*.
 7. Also make sure you are building in x64 or x86. Im fairly sure CefSharp does support AnyCPU, but it will require some additional configuration.
 	 
+## Todo
 
+Not going to guarantee any of these will be added soon. You could also use this as a todo list for yourself, as it does list some pretty important stuff.
+ 
+ - Password hashing
+ - End-to-end API encryption
+ - Registration API
+ - Proper subscription system
 
 ## Credits
  - [CefSharp](https://github.com/cefsharp/CefSharp) 
