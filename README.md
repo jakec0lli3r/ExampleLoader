@@ -36,7 +36,7 @@ Short demo video: https://i.gyazo.com/2720e902a3efc680ac1b2296f0531921.mp4
 	Or simply execute this SQL script: 
 	
 	*Creating the table*.
-	>  CREATE TABLE `user` (/n
+	>  CREATE TABLE `user` (
 	  `id` int(11) NOT NULL,
 	  `username` varchar(255) NOT NULL,
 	  `password` varchar(255) NOT NULL,
