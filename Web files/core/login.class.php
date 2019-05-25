@@ -80,6 +80,6 @@ class LoginClass
     public function EscapeString($conn, $str)
     {
         // Return the escaped version of the string
-        return mysqli_escape_string($conn, $str);
+        return addcslashes(mysqli_real_escape_string($conn, $str), '%_');
     }
 }
